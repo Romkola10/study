@@ -26,16 +26,17 @@
 .menu {
     display: flex;
     gap: 30px;
-
+    align-items: center ;
     // .menu__item
     &__item {
         display: flex;
         position: relative;
+        
     }
 
     // .menu__item-link
     &__item-link {
-        color: white;
+        color: $menuItemsColor ;
         display: flex;
         position: relative;
         transition: 0.5s color;
